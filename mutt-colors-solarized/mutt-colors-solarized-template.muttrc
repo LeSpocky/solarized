@@ -82,15 +82,15 @@ color index         J_cyan          J_statusbg      "~v~(~p)"                   
 color index         J_yellow        J_red           "~v~(~D)"                   # thread with deleted (doesn't differentiate between all or partial)
 #color index         J_yellow        J_bg            "~(~N)"                    # messages in threads with some unread
 #color index         J_green         J_bg            "~S"                       # superseded messages
-#color index         J_red           J_bg            "~T"                       # tagged messages
+color index         J_base02        J_blue          "~T"                        # tagged messages
 #color index         J_orange        J_red           "~="                       # duplicated messages
 
 # message headers ------------------------------------------------------
 
 #color header        J_base01        J_bg            "^"
-color hdrdefault    J_base01        J_bg            
-color header        J_base00        J_bg            "^(From)"
-color header        J_blue          J_bg            "^(Subject)"
+color hdrdefault    J_base02        J_yellow        
+color header        J_base03        J_yellow        "^(From)"
+color header        J_base03        J_yellow        "^(Subject)"
 
 # body -----------------------------------------------------------------
 

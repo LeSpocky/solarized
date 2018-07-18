@@ -82,15 +82,15 @@ color index         color37         color254        "~v~(~p)"                   
 color index         color136        color160        "~v~(~D)"                   # thread with deleted (doesn't differentiate between all or partial)
 #color index         color136        color233        "~(~N)"                    # messages in threads with some unread
 #color index         color64         color233        "~S"                       # superseded messages
-#color index         color160        color233        "~T"                       # tagged messages
+color index         color254        color33         "~T"                        # tagged messages
 #color index         color166        color160        "~="                       # duplicated messages
 
 # message headers ------------------------------------------------------
 
 #color header        color245        color233        "^"
-color hdrdefault    color245        color233        
-color header        color244        color233        "^(From)"
-color header        color33         color233        "^(Subject)"
+color hdrdefault    color254        color136        
+color header        color230        color136        "^(From)"
+color header        color230        color136        "^(Subject)"
 
 # body -----------------------------------------------------------------
 
