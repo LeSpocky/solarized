@@ -88,9 +88,8 @@ color index         white           blue            "~T"                        
 # message headers ------------------------------------------------------
 
 #color header        brightcyan      default         "^"
+color header        brightcyan      yellow          '^[^[:blank:]:]*:'
 color hdrdefault    white           yellow          
-color header        brightwhite     yellow          "^(From)"
-color header        brightwhite     yellow          "^(Subject)"
 
 # body -----------------------------------------------------------------
 

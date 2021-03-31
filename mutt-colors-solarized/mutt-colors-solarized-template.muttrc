@@ -88,9 +88,8 @@ color index         J_base02        J_blue          "~T"                        
 # message headers ------------------------------------------------------
 
 #color header        J_base01        J_bg            "^"
+color header        J_base01        J_yellow        '^[^[:blank:]:]*:'
 color hdrdefault    J_base02        J_yellow        
-color header        J_base03        J_yellow        "^(From)"
-color header        J_base03        J_yellow        "^(Subject)"
 
 # body -----------------------------------------------------------------
 
